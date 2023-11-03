@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../../fonts/Merriweather/Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Gabarito';
+    src: url('../../../fonts/Gabarito/Gabarito-VariableFont_wght.ttf');
+}
+
+.headerTop {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    height: 60px;
+    background-color: rgb(247, 247, 247);
+}
+
+.headerTop .infoList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoItem {
+    list-style: none;
+}
+
+.leftSide {
+    width: 10%;
+    justify-content: left;
+}
+
+.rightSide {
+    width: 17%;
+    margin-right: 35px;
+    justify-content: right;
+}
+
+img {
+    margin-right: 10px;
+    margin-left: 10px;
+    height: 100%;
+}
+
+.rightSide a {
+    text-decoration: none;
+    font-family: 'Merriweather';
+    font-size: 18px;
+    font-weight: 700;
+    color: #01204e;
+}

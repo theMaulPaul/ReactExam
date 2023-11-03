@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Gabarito';
+    src: url('../../fonts/Gabarito/Gabarito-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Girassol';
+    src: url('../../fonts/Girassol/Girassol-Regular.ttf');
+}
+
+body {
+    background-color: rgb(255, 254, 244);
+}
+
+.text_block {
+    height: 100%;
+    width: 55%;
+    margin: 30px auto;
+}
+
+.text_block p {
+    font-family: 'Gabarito';
+    font-size: 18px;
+    letter-spacing: 0.025em;
+    color: #01204e;
+}
+
+.text_block h4 {
+    font-family: 'Girassol';
+    font-size: 28px;
+    color: #f85525;
+    margin-bottom: 15px;
+    letter-spacing: 0.02em;
+}
+
+/* #01204e
+
+#028391 */

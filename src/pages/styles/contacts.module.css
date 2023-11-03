@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Gabarito';
+  src: url('../../fonts/Gabarito/Gabarito-VariableFont_wght.ttf');
+}
+
+@font-face {
+  font-family: 'Girassol';
+  src: url('../../fonts/Girassol/Girassol-Regular.ttf');
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  flex: 1;
+  text-align: center;
+  color: #01204e;
+  background-color: rgba(145, 145, 145, 0.55);
+  box-shadow: 0px 5px 10px 0px rgba(77,77,77,0.58) inset;
+}
+
+.header p {
+  font-family: 'Gabarito';
+  font-size: 22px;
+}
+
+.header h1{
+  font-family: 'Girassol';
+  font-size: 35px;
+}
+
+.about_us {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 60px;
+}
+
+.about_us p {
+  font-family: 'Gabarito';
+  font-size: 22px;
+  color: #01204e;
+  width: 600px;
+}
+
+.about_us h2 {
+  font-family: 'Girassol';
+  font-size: 32px;
+  color: #f85525;
+}
+
+.contact {
+  display: flex;
+  gap: 50px;
+}
+
+.contact_name {
+  text-align: left;
+  width: 350px;
+}
+
+.contact_email {
+  text-align: left;
+  margin-left: 70px;
+  width: 350px;
+}
+
+.text_box {
+  text-align: left;
+  width: 820px;
+}
+
+.form {
+  margin-bottom: 100px;
+  position: relative;
+}
+
+form {
+  text-align: center;
+  width: 45%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: 'Gabarito';
+  font-size: 18px;
+  color: #01204e;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  height: 200px;
+}
+
+.button {
+  position: absolute;
+  background-color: #f85525;
+  color: #f6dcac;
+  margin-top: 20px;
+  right: 26.49%;
+  padding: 10px 20px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Gabarito';
+  font-size: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.button:hover {
+  color: #f85525;
+  background-color: #01204e;
+}

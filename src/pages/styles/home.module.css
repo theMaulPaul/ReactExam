@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Libre Baskerville';
+    src: url('../../fonts/LibreBaskerville/LibreBaskerville-Bold.ttf');
+    src: url('../../fonts/LibreBaskerville/LibreBaskerville-Italic.ttf');
+    src: url('../../fonts/LibreBaskerville/LibreBaskerville-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Merriweather';
+    src: url('../../fonts/Merriweather/Merriweather-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Teko';
+    src: url('../../fonts/Teko/static/Teko-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Gabarito';
+    src: url('../../fonts/Gabarito/Gabarito-VariableFont_wght.ttf');
+}
+
+.h2_h {
+    margin: 0;
+    padding: 0 20px;
+    font-family: 'Teko', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color:#f6dcac;
+    background-color: #f85525;
+    width: fit-content;
+    text-transform: uppercase;
+}
+
+:root {
+    --header_bg: url('../../images/backgrounds/header_bg.jpg');
+    --tab_bg: url('../../images/backgrounds/header_bg4.jpg');
+    --tab1_bg: url('../../images/backgrounds/record_player1.jpg');
+    --tab2_bg: url('../../images/backgrounds/header_bg3.jpg');
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.head_section {
+    height: 400px;
+    padding: 30px 0;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+
+.head_section::after {
+    content: '';
+    opacity: 0.85;
+    z-index: -1;
+    background: var(--header_bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*tab with product cards on the right-hand side */
+.head_section1 {
+    height: 530px;
+    padding: 50px 300px;
+    position: relative;
+}
+
+.head_section1::after {
+    content: '';
+    opacity: 0.75;
+    z-index: -1;
+    background: var(--tab_bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.head_section3 {
+    height: 530px;
+    padding: 50px 300px;
+    position: relative;
+}
+
+.head_section3::after {
+    content: '';
+    opacity: 0.75;
+    z-index: -1;
+    background: var(--tab2_bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.product_info_tab1 {
+    flex: 1;
+    padding: 20px;
+    text-align: right;
+    background-color: rgba(147, 147, 147, 0.55);
+}
+
+.product_info_tab1 h2 {
+    text-align: right;
+    margin-left: 250px;
+}
+
+/*tab with product cards on the right-hand side */
+.head_section2 {
+    height: 530px;
+    padding: 50px 300px;
+    position: relative;
+}
+
+.head_section2::after {
+    content: '';
+    opacity: 0.75;
+    z-index: -1;
+    background: var(--tab1_bg);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 1903px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(246, 220, 172, 0.507);
+    color: aliceblue;
+    height: auto;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 0;
+    border-radius: 10px;
+}
+
+.info_tab {
+    align-items: center;
+    text-align: center;
+    padding: 30px 70px;
+    color: #01204e;
+    font-family: 'Merriweather';
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.link_btn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 130px;
+    height: 50px;
+    border: 0;
+    border-radius: 8px;
+    background-color: #f85525;
+    font-family: 'Merriweather';
+    font-size: 16px;
+    font-weight: 600;
+    color: #01204e;
+}
+
+.link_btn:hover{
+    background-color: #01204e;
+    color: #f85525;
+}
+
+.category_wrapper {
+    display: flex;
+}
+
+.product_info_tab {
+    flex: 1;
+    padding: 20px;
+    background-color: rgba(147, 147, 147, 0.55);
+}
+
+.product_panel_tab {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 30px;
+}
+
+.product_card {
+    border: 2px solid #ccc;
+    background-color:rgb(243, 243, 243);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.product_card img {
+    max-height: 200px;
+    max-width: 200px;
+    min-width: 200px;
+    min-height: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+}
+
+.product_info_tab p{
+    font-family: 'Merriweather';
+    font-size: 18px;
+    font-weight: 700;
+    color: #01204e;
+}
+
+.product_info_tab1 p{
+    font-family: 'Merriweather';
+    font-size: 18px;
+    font-weight: 700;
+    color: #01204e;
+}
+
+.product_card p{
+    font-family: 'Merriweather';
+    font-size: 20px;
+    font-weight: 700;
+    color: #f85525;
+}

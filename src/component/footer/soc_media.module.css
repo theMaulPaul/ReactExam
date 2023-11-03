@@ -1,0 +1,84 @@
+@font-face {
+    font-family: 'DM Serif Display';
+    src: url('../../fonts/DM_SerifDisplay/DMSerifDisplay-Regular.ttf');
+}
+
+.footer {
+    margin: 0;
+    display: flex;
+    flex: 1;
+    height: 65px;
+    background-color: #01204e;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.footer .infoList {
+    display: flex;
+    justify-content: space-between;
+}
+
+.infoItem {
+    list-style: none;
+}
+
+.infoList {
+    justify-content: center;
+    align-items: center;
+}
+
+.infoList img {
+    margin: 0;
+    width: 24px;
+    height: 24px;
+    padding: 4px;
+}
+.leftSide {
+    width: 10%;
+    justify-content: center;
+    align-self: center;
+}
+
+.leftSide li {
+    height: 32px;
+    width: 32px;
+    border: 0.3px solid #f85525;
+    border-radius: 50%;
+}
+
+.rightSide {
+    display: flex;
+    width: 25%;
+    margin: 10px 45px;
+    justify-content: right;
+    font-family: 'DM Serif Display';
+}
+
+.rightSide .input {
+    width: 220px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    border: 1px #5e5e5e;
+    background-color: #01204e;
+    margin-right: 3px;
+    color: #f6dcac;
+    font-size: 18px;
+    font-family: 'DM Serif Display';
+}
+
+.rightSide .input::placeholder{
+    font-family: 'DM Serif Display';
+    font-size: 18px;
+    color: #f6dcac;
+}
+
+.rightSide button {
+    height: 40px;
+    background-color: #f85525;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-family: 'DM Serif Display';
+    font-size: 16px;
+    font-weight: 50;
+    color: #f6dcac;
+}

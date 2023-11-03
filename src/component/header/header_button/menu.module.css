@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Girassol';
+    src: url('../../../fonts/Girassol/Girassol-Regular.ttf');
+}
+
+.panel {
+    height: 90px;
+    width: 100%;
+    background-color: #FAA968;
+    text-align: center;
+    line-height: 90px;
+}
+
+.paragraph {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #f85525;
+    font-size: 28px;
+    font-family: 'Girassol', serif;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.paragraph:hover {
+    border-bottom-color: #f85525;
+}
