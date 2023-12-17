@@ -1,6 +1,8 @@
 import Layout from '../component/layout/layout';
 import { Link } from 'react-router-dom';
 import styles from '../pages/styles/home.module.css';
+import { useState, useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
 import prdct from '../images/vinyls/rs2.jpg';
 import prdct1 from '../images/vinyls/rhcp3.png';
@@ -14,6 +16,16 @@ import prdct7 from '../images/consoles/nintendo64_1.jpg';
 import prdct8 from '../images/consoles/dreamcast1.jpg';
 
 function Home() {
+    // const [products, setProducts] = useState([]);
+
+    // useEffect(() => {
+    //     fetch('http://127.0.0.1:8000/api/product')
+    //     .then(res => res.json())
+    //     .then(json => setProducts(json))
+    // }, []);
+
+
+
     return (
         <>
             <Layout>
