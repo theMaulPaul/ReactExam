@@ -16,6 +16,14 @@ function Category() {
 
     ];
 
+    // const [products, setProducts] = useState([]);
+
+    // useEffect(() => {
+    //     fetch('http://127.0.0.1:8000/api/product')
+    //     .then(res => res.json())
+    //     .then(json => setProducts(json))
+    // }, []);
+
     return (
         <>
             <Layout>
