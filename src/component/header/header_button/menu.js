@@ -7,7 +7,7 @@ function Menu() {
         <>
             <div className={style.panel}>
                 <Link className={style.paragraph} to="/">Home</Link>
-                <Link className={style.paragraph} to="/category">Shop</Link>
+                <Link className={style.paragraph} to="/categories">Shop</Link>
                 <Link className={style.paragraph} to="/contacts">Contacts</Link>
                 <Link className={style.paragraph} to="/delivery&payment">Payment and Delivery</Link>
             </div>

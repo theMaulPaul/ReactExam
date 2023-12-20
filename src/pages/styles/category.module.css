@@ -102,6 +102,11 @@
     border-radius: 5px;
     margin: 5px 0;
 }
+
+.country_filter li {
+    list-style: none;
+    padding-left: 10px;
+}
   
   /* Style for the availability filter */
 .availability_filter {
@@ -123,9 +128,15 @@
     margin: 5px 0;
 }
   
-.availability_filter input[type="checkbox"] {
-    margin-right: 5px;
+.availability_filter li {
+    list-style: none;
+    padding-left: 10px;
 }
+
+.availability_filter input[type="checkbox"] {
+    margin-right: 10px;
+}
+
   
   /* Style for the condition filter */
 .condition_filter {

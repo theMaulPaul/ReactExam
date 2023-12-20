@@ -42,7 +42,7 @@ function Home() {
                                     under one roof.
                                 </p>
                             </div>
-                            <Link to='/category'><button className={styles.link_btn}>Learn more..</button></Link>
+                            <Link to='/categories'><button className={styles.link_btn}>Learn more..</button></Link>
                         </div>
                     </div>
                     <div className={styles.head_section1}>

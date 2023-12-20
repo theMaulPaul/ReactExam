@@ -33,6 +33,22 @@
     height: 24px;
     padding: 4px;
 }
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 1200px;
+    font-size: 18px;
+    width: 10%;
+    font-family: 'DM Serif Display';
+}
+
+.center a{
+    text-decoration: none;
+    color: #f6dcac;
+}
+
 .leftSide {
     width: 10%;
     justify-content: center;
@@ -50,7 +66,7 @@
     display: flex;
     width: 25%;
     margin: 10px 45px;
-    justify-content: right;
+    justify-content: flex-end;
     font-family: 'DM Serif Display';
 }
 

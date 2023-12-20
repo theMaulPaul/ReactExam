@@ -29,6 +29,9 @@ function SocialMedia() {
                         </li>
                     </ul>
                 </div>
+                <div className={style.center}>
+                    <Link to="/login">Log in</Link>
+                </div>
                 <div className={style.rightSide}>
                     <input className={style.input} type="email" id="email" name="email" placeholder="Enter e-mail" required/>
                     <button type="submit">Subscribe</button>

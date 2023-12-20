@@ -172,6 +172,11 @@
     padding: 10px 20px;
 }
 
+.reviews_block {
+    width: 80%;
+    padding: 10px 20px;
+}
+
 .review_header {
     display: flex;
     align-items: center;
