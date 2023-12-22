@@ -201,7 +201,7 @@ function AdminDashboard() {
       <body>
         <nav>
             <div>
-                <a href="/">Home</a>
+            <a href="#" onClick={() => window.location.href = 'http://127.0.0.1:8000/home'}>Home</a>
             </div>
             <div>
                 <div className={style.dropdown}>
