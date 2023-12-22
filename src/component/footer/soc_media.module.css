@@ -36,17 +36,17 @@
 
 .center {
     display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: flex-end;
-    margin-left: 1200px;
-    font-size: 18px;
-    width: 10%;
     font-family: 'DM Serif Display';
 }
 
 .center a{
     text-decoration: none;
     color: #f6dcac;
+    font-size: 18px;
+    margin-right: 10px;
+    margin-bottom: 5px;
 }
 
 .leftSide {

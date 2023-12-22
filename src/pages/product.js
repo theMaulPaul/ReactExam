@@ -74,7 +74,7 @@ function Product() {
     const productSection = (
             <section className={style.upper_section}>
                 <div className={style.inline_image}>
-                    <img src={"/img/"+currentProduct.img_url}/>
+                    <img src={"/img/" + currentProduct.img_url}/>
                     <Swiper
                         className={style.swiper}
                         modules={[Navigation, Pagination, Scrollbar, A11y]}

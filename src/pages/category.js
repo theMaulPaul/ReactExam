@@ -3,7 +3,6 @@ import Layout from '../component/layout/layout';
 import {Link} from 'react-router-dom';
 import ProductCard from './productCard';
 import style from '../pages/styles/category.module.css';
-// import ProductList from '../elements/productList';
 import {useState, useEffect} from 'react';
 
 function Category() {

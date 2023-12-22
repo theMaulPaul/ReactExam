@@ -5,7 +5,9 @@ import Category from './pages/category';
 import Contacts from './pages/contacts';
 import DeliveryAndPayment from './pages/delivery&payment';
 import Product from './pages/product';
+import AdminDashboard from './pages/admin/dashboard';
 import Login from './pages/login';
+// import Register from './pages/register';
 import { useRef } from 'react';
 
 function App() {
@@ -18,7 +20,9 @@ function App() {
         <Route path="/contacts" element={<Contacts/>}/>
         <Route path="/delivery&payment" element={<DeliveryAndPayment/>}/>
         <Route path="/products/:id?/:categories?" element={<Product/>}/>
-        <Route path="/login" element={<Login/>}/>
+        <Route path="/admin/dashboard" element={<AdminDashboard/>}/>
+        {/* <Route path="/register" element={<Register/>}/>
+        <Route path="/login" element={<Login/>}/> */}
       </Routes>
     </BrowserRouter>
   );

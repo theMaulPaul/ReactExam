@@ -46,8 +46,7 @@
 .brand_filter input[type="checkbox"] {
     margin-right: 10px;
 }
-  
-  /* Style for the price filter */
+
 .price_filter {
     margin-bottom: 20px;
     border: 1px solid #ddd;
@@ -107,8 +106,7 @@
     list-style: none;
     padding-left: 10px;
 }
-  
-  /* Style for the availability filter */
+
 .availability_filter {
     margin-bottom: 20px;
     border: 1px solid #ddd;
@@ -137,8 +135,6 @@
     margin-right: 10px;
 }
 
-  
-  /* Style for the condition filter */
 .condition_filter {
     margin-bottom: 20px;
     border: 1px solid #ddd;

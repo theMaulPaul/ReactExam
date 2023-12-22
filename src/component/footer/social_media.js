@@ -7,6 +7,15 @@ import inst from '../../images/icons/icons7-instagram-24.png';
 import style from './soc_media.module.css';
 
 function SocialMedia() {
+    const handleRegister = () => {
+        window.location.href = 'http://127.0.0.1:8000/register';
+    }
+
+    const handleLogin = () => {
+        window.location.href = 'http://127.0.0.1:8000/login';
+    }
+
+
     return (
         <>
             <div className={style.footer}>
@@ -29,10 +38,11 @@ function SocialMedia() {
                         </li>
                     </ul>
                 </div>
-                <div className={style.center}>
-                    <Link to="/login">Log in</Link>
-                </div>
                 <div className={style.rightSide}>
+                    <div className={style.center}>
+                        <Link onClick={handleRegister}>Register</Link>
+                        <Link onClick={handleLogin}>Log in</Link>
+                    </div>
                     <input className={style.input} type="email" id="email" name="email" placeholder="Enter e-mail" required/>
                     <button type="submit">Subscribe</button>
                 </div>
